@@ -9,8 +9,13 @@
 /* Begin PBXBuildFile section */
 		4007AAFB19E2A57B00C0101B /* Fibonacci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007AAF919E2A57B00C0101B /* Fibonacci.cpp */; };
 		4007AAFE19E2AC4700C0101B /* ProjectEuler002.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007AAFC19E2AC4700C0101B /* ProjectEuler002.cpp */; };
+		4007AB0119E2B79700C0101B /* ProjectEuler003.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007AAFF19E2B79700C0101B /* ProjectEuler003.cpp */; };
+		4007AB0419E2B7C100C0101B /* Prime.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4007AB0219E2B7C100C0101B /* Prime.cpp */; };
 		4012D05B19E2034B00156868 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4012D05A19E2034B00156868 /* main.cpp */; };
 		4012D05E19E2036600156868 /* ProjectEuler001.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4012D05C19E2036600156868 /* ProjectEuler001.cpp */; };
+		405971C019E2CB97006D63E9 /* ProjectEuler004.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971BE19E2CB97006D63E9 /* ProjectEuler004.cpp */; };
+		405971C619E2CFB3006D63E9 /* ProjectEuler005.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971C419E2CFB3006D63E9 /* ProjectEuler005.cpp */; };
+		405971C919E2D12A006D63E9 /* Sums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971C719E2D12A006D63E9 /* Sums.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,10 +35,20 @@
 		4007AAFA19E2A57B00C0101B /* Fibonacci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fibonacci.h; path = src/libs/Fibonacci.h; sourceTree = SOURCE_ROOT; };
 		4007AAFC19E2AC4700C0101B /* ProjectEuler002.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProjectEuler002.cpp; path = src/solutions/ProjectEuler002.cpp; sourceTree = SOURCE_ROOT; };
 		4007AAFD19E2AC4700C0101B /* ProjectEuler002.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectEuler002.h; path = src/solutions/ProjectEuler002.h; sourceTree = SOURCE_ROOT; };
+		4007AAFF19E2B79700C0101B /* ProjectEuler003.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProjectEuler003.cpp; path = src/solutions/ProjectEuler003.cpp; sourceTree = SOURCE_ROOT; };
+		4007AB0019E2B79700C0101B /* ProjectEuler003.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectEuler003.h; path = src/solutions/ProjectEuler003.h; sourceTree = SOURCE_ROOT; };
+		4007AB0219E2B7C100C0101B /* Prime.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Prime.cpp; path = src/libs/Prime.cpp; sourceTree = SOURCE_ROOT; };
+		4007AB0319E2B7C100C0101B /* Prime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Prime.h; path = src/libs/Prime.h; sourceTree = SOURCE_ROOT; };
 		4012D04819E1F8BC00156868 /* ProjectEuler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProjectEuler; sourceTree = BUILT_PRODUCTS_DIR; };
 		4012D05A19E2034B00156868 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
 		4012D05C19E2036600156868 /* ProjectEuler001.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProjectEuler001.cpp; path = src/solutions/ProjectEuler001.cpp; sourceTree = SOURCE_ROOT; };
 		4012D05D19E2036600156868 /* ProjectEuler001.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectEuler001.h; path = src/solutions/ProjectEuler001.h; sourceTree = SOURCE_ROOT; };
+		405971BE19E2CB97006D63E9 /* ProjectEuler004.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProjectEuler004.cpp; path = src/solutions/ProjectEuler004.cpp; sourceTree = SOURCE_ROOT; };
+		405971BF19E2CB97006D63E9 /* ProjectEuler004.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectEuler004.h; path = src/solutions/ProjectEuler004.h; sourceTree = SOURCE_ROOT; };
+		405971C419E2CFB3006D63E9 /* ProjectEuler005.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProjectEuler005.cpp; path = src/solutions/ProjectEuler005.cpp; sourceTree = SOURCE_ROOT; };
+		405971C519E2CFB3006D63E9 /* ProjectEuler005.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectEuler005.h; path = src/solutions/ProjectEuler005.h; sourceTree = SOURCE_ROOT; };
+		405971C719E2D12A006D63E9 /* Sums.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sums.cpp; path = src/libs/Sums.cpp; sourceTree = SOURCE_ROOT; };
+		405971C819E2D12A006D63E9 /* Sums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sums.h; path = src/libs/Sums.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				4012D04A19E1F8BC00156868 /* src */,
-				4012D04919E1F8BC00156868 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,6 +75,7 @@
 				4012D04819E1F8BC00156868 /* ProjectEuler */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		4012D04A19E1F8BC00156868 /* src */ = {
@@ -69,6 +84,7 @@
 				4012D05A19E2034B00156868 /* main.cpp */,
 				4012D05319E1F94400156868 /* solutions */,
 				4012D05219E1F92F00156868 /* libs */,
+				4012D04919E1F8BC00156868 /* Products */,
 			);
 			name = src;
 			path = ProjectEuler;
@@ -77,8 +93,12 @@
 		4012D05219E1F92F00156868 /* libs */ = {
 			isa = PBXGroup;
 			children = (
+				4007AB0219E2B7C100C0101B /* Prime.cpp */,
+				4007AB0319E2B7C100C0101B /* Prime.h */,
 				4007AAF919E2A57B00C0101B /* Fibonacci.cpp */,
 				4007AAFA19E2A57B00C0101B /* Fibonacci.h */,
+				405971C719E2D12A006D63E9 /* Sums.cpp */,
+				405971C819E2D12A006D63E9 /* Sums.h */,
 			);
 			name = libs;
 			sourceTree = "<group>";
@@ -90,6 +110,12 @@
 				4012D05D19E2036600156868 /* ProjectEuler001.h */,
 				4007AAFC19E2AC4700C0101B /* ProjectEuler002.cpp */,
 				4007AAFD19E2AC4700C0101B /* ProjectEuler002.h */,
+				4007AAFF19E2B79700C0101B /* ProjectEuler003.cpp */,
+				4007AB0019E2B79700C0101B /* ProjectEuler003.h */,
+				405971BE19E2CB97006D63E9 /* ProjectEuler004.cpp */,
+				405971BF19E2CB97006D63E9 /* ProjectEuler004.h */,
+				405971C419E2CFB3006D63E9 /* ProjectEuler005.cpp */,
+				405971C519E2CFB3006D63E9 /* ProjectEuler005.h */,
 			);
 			name = solutions;
 			sourceTree = "<group>";
@@ -150,8 +176,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405971C919E2D12A006D63E9 /* Sums.cpp in Sources */,
+				405971C019E2CB97006D63E9 /* ProjectEuler004.cpp in Sources */,
 				4007AAFB19E2A57B00C0101B /* Fibonacci.cpp in Sources */,
+				4007AB0119E2B79700C0101B /* ProjectEuler003.cpp in Sources */,
 				4012D05B19E2034B00156868 /* main.cpp in Sources */,
+				4007AB0419E2B7C100C0101B /* Prime.cpp in Sources */,
+				405971C619E2CFB3006D63E9 /* ProjectEuler005.cpp in Sources */,
 				4007AAFE19E2AC4700C0101B /* ProjectEuler002.cpp in Sources */,
 				4012D05E19E2036600156868 /* ProjectEuler001.cpp in Sources */,
 			);

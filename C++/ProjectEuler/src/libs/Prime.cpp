@@ -22,12 +22,11 @@ Prime::~Prime()
 }
 
 unsigned long Prime::getSize(){
-	int i = Primes.size();
-	return i;
+	return Primes.size();
 }
 
 
-vector<uint64_t> Prime::getN(unsigned int n){
+vector<uint64_t> Prime::getN(unsigned long n){
 	long size = getSize();
 	if (size >= n){
 		vector<uint64_t>::const_iterator first = Primes.begin();
@@ -38,7 +37,7 @@ vector<uint64_t> Prime::getN(unsigned int n){
 
 	while (size < n)
 	{
-		int newSize = size + 1;
+		long newSize = size + 1;
 		while (size != newSize){
 			bool isPrime=true;
 			for (std::vector<uint64_t>::iterator it = Primes.begin(); it != Primes.end() && isPrime; ++it)
@@ -60,9 +59,6 @@ vector<uint64_t> Prime::getLower(uint64_t max){
 	
 	// burte 
 	long size = getSize();
-
-	bool condition = true;
-
 
 	while  (Primes[size - 1] < max) {
 		getN(size+1);
@@ -104,7 +100,7 @@ vector<uint64_t> Prime::getFactorization(uint64_t num){
 		}
 
 	}
-
+    return fact;
 
 }
 
@@ -112,7 +108,7 @@ vector<uint64_t> Prime::getFactorization(uint64_t num){
 uint64_t Prime::mdc(uint64_t a, uint64_t b){
 	if (a < b)
 		return mdc(b, a);
-	int resto = a%b;
+	uint64_t resto = a % b;
 	if (resto == 0)
 		return b;
 	else

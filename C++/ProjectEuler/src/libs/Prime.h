@@ -20,7 +20,7 @@ class Prime
 public:
 	Prime();
 	~Prime();
-	vector<uint64_t> getN(unsigned int n);
+	vector<uint64_t> getN(unsigned long n);
 	vector<uint64_t> getLower(uint64_t max);
 	vector<uint64_t> getFactorization(uint64_t num);
 	unsigned long getSize();
