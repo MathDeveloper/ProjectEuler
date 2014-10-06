@@ -17,6 +17,8 @@
 #include "ProjectEuler006.h"
 #include "ProjectEuler007.h"
 #include "ProjectEuler008.h"
+#include "ProjectEuler009.h"
+#include "ProjectEuler010.h"
 
 using namespace std;
 
@@ -64,6 +66,14 @@ int main(int argc, const char * argv[]) {
                 
             case 8:
                 cout << "Answer: " << ProjectEuler008::getSolution() << "\n";
+                break;
+                
+            case 9:
+                cout << "Answer: " << ProjectEuler009::getSolution() << "\n";
+                break;
+                
+            case 10:
+                cout << "Answer: " << ProjectEuler010::getSolution() << "\n";
                 break;
             
             default:
