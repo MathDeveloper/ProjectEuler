@@ -4,15 +4,42 @@
     <Filter Include="solutions">
       <UniqueIdentifier>{7a6d7dbc-6ce2-40f9-a0e3-000c2812e4e5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="libs">
+      <UniqueIdentifier>{8695e23f-e710-449e-843f-fefe78dd6bf1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\solutions\ProjectEuler001.cpp">
       <Filter>solutions</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\libs\Fibonacci.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\solutions\ProjectEuler002.cpp">
+      <Filter>solutions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\libs\Prime.cpp">
+      <Filter>libs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\solutions\ProjectEuler003.cpp">
+      <Filter>solutions</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\solutions\ProjectEuler001.h">
+      <Filter>solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libs\Fibonacci.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\solutions\ProjectEuler002.h">
+      <Filter>solutions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\libs\Prime.h">
+      <Filter>libs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\solutions\ProjectEuler003.h">
       <Filter>solutions</Filter>
     </ClInclude>
   </ItemGroup>

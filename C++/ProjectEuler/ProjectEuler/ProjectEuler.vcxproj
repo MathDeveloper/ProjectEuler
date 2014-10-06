@@ -52,7 +52,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\src;..\src\solutions</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\src;..\src\solutions;..\src\libs</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -68,7 +68,7 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>..\src;..\scr\solutions</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\src;..\src\solutions;..\src\libs</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -78,11 +78,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\libs\Fibonacci.cpp" />
+    <ClCompile Include="..\src\libs\Prime.cpp" />
     <ClCompile Include="..\src\main.cpp" />
     <ClCompile Include="..\src\solutions\ProjectEuler001.cpp" />
+    <ClCompile Include="..\src\solutions\ProjectEuler002.cpp" />
+    <ClCompile Include="..\src\solutions\ProjectEuler003.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\libs\Fibonacci.h" />
+    <ClInclude Include="..\src\libs\Prime.h" />
     <ClInclude Include="..\src\solutions\ProjectEuler001.h" />
+    <ClInclude Include="..\src\solutions\ProjectEuler002.h" />
+    <ClInclude Include="..\src\solutions\ProjectEuler003.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

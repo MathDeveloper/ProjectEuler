@@ -41,9 +41,7 @@ vector<uint64_t> Fibonacci::getN(int n){
 }
 
 vector<uint64_t> Fibonacci::getLower(uint64_t max){
-    long size = getSize();
-    
-    bool condition = true;
+	long size = getSize();
     
     uint64_t next = numbersFibonacci[size-2] + numbersFibonacci[size-1];
     
@@ -54,7 +52,7 @@ vector<uint64_t> Fibonacci::getLower(uint64_t max){
             next = numbersFibonacci[size-2] + numbersFibonacci[size-1];
         }
     } else {
-        while (numbersFibonacci[size-1]) {
+        while (numbersFibonacci[size-1] > max) {
             size--;
         }
         vector<uint64_t>::const_iterator first = numbersFibonacci.begin();

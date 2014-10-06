@@ -10,6 +10,7 @@
 #define __ProjectEuler__Fibonacci__
 
 #include <stdio.h>
+#include <stdint.h>
 #include <vector>
 
 using namespace std;
