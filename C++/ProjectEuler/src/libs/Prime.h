@@ -31,6 +31,7 @@ public:
 private:
 	vector<uint64_t> Primes;
 	int num;
+    int positive;
 };
 
 #endif /* defined(__ProjectEuler__Prime__) */

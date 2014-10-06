@@ -17,6 +17,8 @@
 		405971C619E2CFB3006D63E9 /* ProjectEuler005.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971C419E2CFB3006D63E9 /* ProjectEuler005.cpp */; };
 		405971C919E2D12A006D63E9 /* Sums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971C719E2D12A006D63E9 /* Sums.cpp */; };
 		405971CC19E2FB8A006D63E9 /* ProjectEuler006.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971CA19E2FB8A006D63E9 /* ProjectEuler006.cpp */; };
+		405971CF19E2FFC6006D63E9 /* ProjectEuler007.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971CD19E2FFC6006D63E9 /* ProjectEuler007.cpp */; };
+		405971D219E30417006D63E9 /* ProjectEuler008.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971D019E30417006D63E9 /* ProjectEuler008.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -52,6 +54,10 @@
 		405971C819E2D12A006D63E9 /* Sums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sums.h; path = src/libs/Sums.h; sourceTree = SOURCE_ROOT; };
 		405971CA19E2FB8A006D63E9 /* ProjectEuler006.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProjectEuler006.cpp; path = src/solutions/ProjectEuler006.cpp; sourceTree = SOURCE_ROOT; };
 		405971CB19E2FB8A006D63E9 /* ProjectEuler006.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectEuler006.h; path = src/solutions/ProjectEuler006.h; sourceTree = SOURCE_ROOT; };
+		405971CD19E2FFC6006D63E9 /* ProjectEuler007.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProjectEuler007.cpp; path = src/solutions/ProjectEuler007.cpp; sourceTree = SOURCE_ROOT; };
+		405971CE19E2FFC6006D63E9 /* ProjectEuler007.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectEuler007.h; path = src/solutions/ProjectEuler007.h; sourceTree = SOURCE_ROOT; };
+		405971D019E30417006D63E9 /* ProjectEuler008.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProjectEuler008.cpp; path = src/solutions/ProjectEuler008.cpp; sourceTree = SOURCE_ROOT; };
+		405971D119E30417006D63E9 /* ProjectEuler008.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectEuler008.h; path = src/solutions/ProjectEuler008.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +127,10 @@
 				405971C519E2CFB3006D63E9 /* ProjectEuler005.h */,
 				405971CA19E2FB8A006D63E9 /* ProjectEuler006.cpp */,
 				405971CB19E2FB8A006D63E9 /* ProjectEuler006.h */,
+				405971CD19E2FFC6006D63E9 /* ProjectEuler007.cpp */,
+				405971CE19E2FFC6006D63E9 /* ProjectEuler007.h */,
+				405971D019E30417006D63E9 /* ProjectEuler008.cpp */,
+				405971D119E30417006D63E9 /* ProjectEuler008.h */,
 			);
 			name = solutions;
 			sourceTree = "<group>";
@@ -188,6 +198,8 @@
 				4012D05B19E2034B00156868 /* main.cpp in Sources */,
 				4007AB0419E2B7C100C0101B /* Prime.cpp in Sources */,
 				405971C619E2CFB3006D63E9 /* ProjectEuler005.cpp in Sources */,
+				405971CF19E2FFC6006D63E9 /* ProjectEuler007.cpp in Sources */,
+				405971D219E30417006D63E9 /* ProjectEuler008.cpp in Sources */,
 				4007AAFE19E2AC4700C0101B /* ProjectEuler002.cpp in Sources */,
 				405971CC19E2FB8A006D63E9 /* ProjectEuler006.cpp in Sources */,
 				4012D05E19E2036600156868 /* ProjectEuler001.cpp in Sources */,

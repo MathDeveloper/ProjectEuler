@@ -13,7 +13,8 @@ Prime::Prime()
 {
 	Primes.push_back(2);
 	Primes.push_back(3);
-	num = 4;
+	num = 1;
+    positive = -1;
 }
 
 
@@ -34,24 +35,47 @@ vector<uint64_t> Prime::getN(unsigned long n){
 		vector<uint64_t> newVec(first, last);
 		return newVec;
 	}
+    
+    int k1 = 6*num-1;
+    int k2 = 6*num+1;
 
 	while (size < n)
 	{
 		long newSize = size + 1;
-		while (size != newSize){
+		while (size < newSize){
 			bool isPrime=true;
-			for (std::vector<uint64_t>::iterator it = Primes.begin(); it != Primes.end() && isPrime; ++it)
-				isPrime = (num % (*it) != 0);
+            for (std::vector<uint64_t>::iterator it = Primes.begin()+2; it != Primes.end() && isPrime; ++it){
+                isPrime = (k1 % (*it) != 0);
+                if (isPrime && (*it)*(*it) > k1 ) {
+                    it = Primes.end()-1;
+                }
+            }
 			if (isPrime){
-				Primes.push_back(num);
+				Primes.push_back(k1);
 				size++;
 			}
+            isPrime=true;
+            for (std::vector<uint64_t>::iterator it = Primes.begin()+2; it != Primes.end() && isPrime; ++it){
+                isPrime = (k2 % (*it) != 0);
+                if (isPrime && (*it)*(*it) > k2 ) {
+                    it = Primes.end()-1;
+                }
+            }
+            if (isPrime){
+                Primes.push_back(k2);
+                size++;
+            }
+            
 			num++;
+            k1 = 6*num-1;
+            k2 = 6*num+1;
 		}
 	}
-
-
-	return Primes;
+    if (size == n) {
+        return Primes;
+    }
+    else
+        return getN(n);
 }
 
 vector<uint64_t> Prime::getLower(uint64_t max){
