@@ -10,6 +10,7 @@
 #include <time.h>
 
 #include "ProjectEuler001.h"
+#include "ProjectEuler002.h"
 
 using namespace std;
 
@@ -29,6 +30,10 @@ int main(int argc, const char * argv[]) {
         switch (problem) {
             case 1:
                 cout << "Answer: " << ProjectEuler001::getSolution() << "\n";
+                break;
+                
+            case 2:
+                cout << "Answer: " << ProjectEuler002::getSolution() << "\n";
                 break;
                 
             default:
