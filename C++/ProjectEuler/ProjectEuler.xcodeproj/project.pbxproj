@@ -16,6 +16,7 @@
 		405971C019E2CB97006D63E9 /* ProjectEuler004.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971BE19E2CB97006D63E9 /* ProjectEuler004.cpp */; };
 		405971C619E2CFB3006D63E9 /* ProjectEuler005.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971C419E2CFB3006D63E9 /* ProjectEuler005.cpp */; };
 		405971C919E2D12A006D63E9 /* Sums.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971C719E2D12A006D63E9 /* Sums.cpp */; };
+		405971CC19E2FB8A006D63E9 /* ProjectEuler006.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 405971CA19E2FB8A006D63E9 /* ProjectEuler006.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -49,6 +50,8 @@
 		405971C519E2CFB3006D63E9 /* ProjectEuler005.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectEuler005.h; path = src/solutions/ProjectEuler005.h; sourceTree = SOURCE_ROOT; };
 		405971C719E2D12A006D63E9 /* Sums.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Sums.cpp; path = src/libs/Sums.cpp; sourceTree = SOURCE_ROOT; };
 		405971C819E2D12A006D63E9 /* Sums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Sums.h; path = src/libs/Sums.h; sourceTree = SOURCE_ROOT; };
+		405971CA19E2FB8A006D63E9 /* ProjectEuler006.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ProjectEuler006.cpp; path = src/solutions/ProjectEuler006.cpp; sourceTree = SOURCE_ROOT; };
+		405971CB19E2FB8A006D63E9 /* ProjectEuler006.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProjectEuler006.h; path = src/solutions/ProjectEuler006.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 				405971BF19E2CB97006D63E9 /* ProjectEuler004.h */,
 				405971C419E2CFB3006D63E9 /* ProjectEuler005.cpp */,
 				405971C519E2CFB3006D63E9 /* ProjectEuler005.h */,
+				405971CA19E2FB8A006D63E9 /* ProjectEuler006.cpp */,
+				405971CB19E2FB8A006D63E9 /* ProjectEuler006.h */,
 			);
 			name = solutions;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 				4007AB0419E2B7C100C0101B /* Prime.cpp in Sources */,
 				405971C619E2CFB3006D63E9 /* ProjectEuler005.cpp in Sources */,
 				4007AAFE19E2AC4700C0101B /* ProjectEuler002.cpp in Sources */,
+				405971CC19E2FB8A006D63E9 /* ProjectEuler006.cpp in Sources */,
 				4012D05E19E2036600156868 /* ProjectEuler001.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
