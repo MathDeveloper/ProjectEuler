@@ -79,15 +79,29 @@ vector<uint64_t> Prime::getN(unsigned long n){
 }
 
 vector<uint64_t> Prime::getLower(uint64_t max){
-	// TODO: use algorithm Euclides
-	
-	// burte 
+    vector<bool> siev(max,true);
+    siev[0] = false;
+
+    for(uint64_t i=1;i*i<max;i++ ){
+        if (siev[i]){
+            uint64_t product = (i+1)*(i+1);
+            while (product < max) {
+                siev[product-1]=false;
+                product += (i+1);
+            }
+        }
+    }
+
+    uint64_t lastPrime = *Primes.end();
+    
+    for(uint64_t i=lastPrime;i<max;i++ ){
+        if (siev[i] == true) {
+            Primes.push_back(i+1);
+        }
+    }
+    
 	long size = getSize();
 
-	while  (Primes[size - 1] < max) {
-		getN(size+1);
-		size = getSize();
-	}
 	while (Primes[size - 1] > max) {
 		size--;
 	}
